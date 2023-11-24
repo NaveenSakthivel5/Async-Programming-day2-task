@@ -58,7 +58,7 @@ async function myCountries() {
 
         let link = document.createElement("button");
         link.className = "btn btn-primary";
-        link.textContent = "Get Weather";
+        link.textContent = "Click for Weather";
 
         link.addEventListener("click", async () => {
             const temperature = await getWeather(e.latlng);
